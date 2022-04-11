@@ -149,10 +149,14 @@ body {
   display: none;
 }
 
+main{
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
 .create{
     margin-top: 4rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
+
 }
 .create p {
     color:#2d9cdb;
@@ -205,6 +209,7 @@ body {
     width: 291px;
     height: 47px;
     border-radius: 12px;
+    margin-top: 2rem;
 }
 .story div input{
     width: 147px;
@@ -236,6 +241,46 @@ body {
 
 }
 
+.services {
+    margin-top: 3rem;
+}
+
+.services :hover{
+    border-radius: 24px;
+    box-shadow: 12px 12px 6px #333333;
+    border-top: 1px solid lightslategray;
+    border-left:1px solid lightslategray;
+}
+.services .service :hover{
+    box-shadow: none;
+    border-style: none;
+}
+
+#services .service{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-bottom: 4rem;
+}
+.services .service h2,p{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-bottom: 2rem;
+}
+.services .service button{
+    width: 116px;
+    height: 42px;
+    border-style: none;
+    border-radius: 12px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    background-color: #e0e0e0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size:16px;
+    line-height: 24px;
+    color:#828282
+}
+
 .services .service .icono{
     width: 67px;
     height: 67px;
@@ -245,6 +290,9 @@ body {
     text-align: center;
     padding-top: 15px;
     margin-top:20px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
 }
 
 .services .service .blue{
@@ -257,4 +305,9 @@ body {
 
 .services .service .red{
     background-color: #eb5757;
+}
+
+#servicet{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
 }
