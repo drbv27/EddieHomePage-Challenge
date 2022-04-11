@@ -235,3 +235,26 @@ body {
     margin-top: 4px;
 
 }
+
+.services .service .icono{
+    width: 67px;
+    height: 67px;
+    border-radius: 16px;
+    color: white;
+    font-size: 27px;
+    text-align: center;
+    padding-top: 15px;
+    margin-top:20px;
+}
+
+.services .service .blue{
+    background-color: #2d9cdb;
+}
+
+.services .service .green{
+    background-color: #27ae60;
+}
+
+.services .service .red{
+    background-color: #eb5757;
+}
