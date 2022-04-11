@@ -255,6 +255,12 @@ main{
     box-shadow: none;
     border-style: none;
 }
+.services .service button:hover{
+    box-shadow: none;
+    border-style: none;
+    background-color: #2d9cdb;
+    color: white;
+}
 
 #services .service{
     padding-top: 2rem;
