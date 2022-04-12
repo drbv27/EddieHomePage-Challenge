@@ -340,10 +340,13 @@ main{
 
 .design {
     margin-top: 3rem;
+
 }
 
 .design img{
     border-radius: 25px;
+    width: 350px;
+    height: 350px;
 }
 .design p{
     padding-bottom: 0.2rem;
@@ -362,4 +365,59 @@ main{
     font-size:18px;
     line-height: 27px;
     color:#333333
+}
+.team{
+    margin-top: 10rem;
+}
+
+.team h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size:18px;
+    line-height: 27px;
+    color:#eb5757
+}
+.team h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size:36px;
+    line-height: 54px;
+    color:#333333;
+}
+.team p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size:16px;
+    line-height: 24px;
+    color:#4f4f4f;
+    margin-left: 0;
+    margin-top: 1rem;
+}
+
+#team{
+    display: flex;
+}
+
+#member1{
+    width: 144.76px;
+    height: 144.76px;
+    border-radius: 24px;
+    padding:0.3rem;
+}
+#member2{
+    width: 162.25px;
+    height: 162.25px;
+    border-radius: 24px;
+    padding:0.3rem;
+}
+#member3{
+    width: 200px;
+    height: 200px;
+    border-radius: 24px;
+    padding: 0.5rem;
+    margin-top: 3rem;
+}
+#members{
+    display: flex;
+    flex-direction: column;
 }
