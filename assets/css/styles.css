@@ -178,8 +178,8 @@ main{
 
 .create img{
     
-    width: 468px;
-    height: 145px;
+    width: 348px;
+    height: 92.5px;
     border-radius: 18px;
 }
 .story h2{
@@ -420,4 +420,140 @@ main{
 #members{
     display: flex;
     flex-direction: column;
+}
+
+.quote{
+    margin-top: 4rem;
+}
+.quote h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size:24px;
+    line-height: 36px;
+    color:#333333;
+    margin-left: 0;
+}
+.people{
+    display: flex;
+    margin-top: 2rem;
+    gap: 0.5rem;
+}
+.people img{
+    width: 135px;
+    height: 135px;
+    border-radius: 12px;
+}
+
+.people #name h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size:24px;
+    line-height: 36px;
+    color:#333333;
+    
+}
+.people #name p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size:18px;
+    line-height: 27px;
+    color:#828282;
+    margin-left: 0;
+    margin-right: 0;
+    
+}
+
+footer{
+    margin-top: 5rem;
+    background-color: #100e1d;
+    color:#ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+#footercontent .menu{
+    margin-top: 1rem;
+    margin-left: 3rem;
+    
+}
+
+#footercontent .menu ul{
+    list-style-type: none;
+}
+
+#footercontent .menu li a{
+    text-decoration: none;
+    color:#ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size:18px;
+    line-height: 36px;
+}
+
+.social{
+    margin-top: 3rem;
+}
+
+.social h2{
+    margin-left: 3rem;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 53px;
+    color: #f2f2f2;
+}
+
+.contact{
+    margin-left: 3rem;
+    margin-top: 3rem;
+    width: 291px;
+    height: 47px;
+    background-color: #f2f2f2;
+    border-radius: 12px;
+}
+.contact input{
+    margin-left: 0.8rem;
+    margin-top: 0.8rem;
+    width: 147px;
+    height: 26px;
+    border-color: #f2f2f2;
+    background-color: #f2f2f2;
+    border-style: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.contact input ::placeholder{
+    
+    color:#bdbdbd;
+}
+.contact button{
+    background-color: #2d9cdb;
+    border-style: none;
+    width: 71px;
+    height: 39px;
+    border-radius: 12px;
+    color:#f2f2f2;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size:14px;
+    line-height: 21px;
+    margin-left: 53px;
+
+}
+
+#created {
+    text-align: center;
+    margin-top: 5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+#created a{
+    font-weight: 700;
+    color:#f2f2f2;
 }
