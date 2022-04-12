@@ -320,6 +320,15 @@ main{
 .designs{
     margin-top: 15rem;
 }
+.designs h3 a{
+    text-decoration: none;
+    color:#2d9cdb;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size:18px;
+    line-height: 27px;
+
+}
 .designs h2{
     margin-left: 3rem;
     font-family: 'Poppins', sans-serif;
