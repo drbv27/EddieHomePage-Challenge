@@ -557,3 +557,25 @@ footer{
     font-weight: 700;
     color:#f2f2f2;
 }
+
+@media screen and (min-width:992px) {
+    .create p {
+        margin-left: 277px;
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .create h1{
+        margin-left: 277px;
+        width: 543px;
+        margin-right: 60px;
+        font-size: 48px;
+        line-height: 72px;
+    }
+    
+    .create img{
+        
+        width: 1332px;
+        height: 354px;
+        border-radius: 18px;
+    }
+}
