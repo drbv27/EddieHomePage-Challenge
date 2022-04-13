@@ -578,4 +578,55 @@ footer{
         height: 354px;
         border-radius: 18px;
     }
+
+    .story h2{
+        width: 366px;
+        height:141px;
+        font-size: 48px;
+        line-height: 72px;
+    }
+    .story p{
+        width: 366px;
+        height:141px;
+        font-size:18px;
+        line-height: 27px;
+    }
+    .story #minip{
+        font-size:14px;
+        line-height: 21px;
+        padding-bottom: 0.5rem;
+        margin-bottom: 0.5rem;
+        height: 50px;
+    }
+    
+    .story div{
+        width: 350px;
+        height: 57px;
+        border-radius: 12px;
+    }
+    .story div input{
+        width: 147px;
+        height: 26px;
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .story div input ::placeholder{
+        color:#bdbdbd;
+    }
+    .story div button{
+        background-color: #2d9cdb;
+        border-style: none;
+        width: 71px;
+        height: 39px;
+        border-radius: 12px;
+        color:#f2f2f2;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size:14px;
+        line-height: 21px;
+        margin-left: 71px;
+        margin-top: 4px;
+    
+    }
+    
 }
