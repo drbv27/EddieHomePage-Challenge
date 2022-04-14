@@ -707,4 +707,9 @@ footer{
         font-size: 18px;
         line-height: 27px;
     }
+
+    #footercontent{
+        display: flex;
+        justify-content: space-evenly;
+    }
 }
