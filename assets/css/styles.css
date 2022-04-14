@@ -245,15 +245,11 @@ main{
     margin-top: 3rem;
 }
 
-.services :hover{
+#service2 {
     border-radius: 24px;
     box-shadow: 5px 6px 3px lightslategray;
     border-top: 1px solid lightslategray;
     border-left:1px solid lightslategray;
-}
-.services .service :hover{
-    box-shadow: none;
-    border-style: none;
 }
 .services .service button:hover{
     box-shadow: none;
@@ -622,7 +618,15 @@ footer{
         line-height: 21px;
         margin-left: 125px;
         margin-top: 4px;
+    }
+    .service {
+        width: 341px;
+        height: 422px;
+    }
     
+    .services #iconos{
+        display:flex;
+        justify-content: space-between;
     }
     
 }
