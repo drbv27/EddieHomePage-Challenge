@@ -688,4 +688,23 @@ footer{
         padding: 0.5rem;
         margin-top: 3rem;
     }
+
+    .quote h2{
+        width: 937px;
+        height: 162px;
+        font-size: 36px;
+        line-height: 54px;
+    }
+
+    .people #name h2{
+        width: 140px;
+        height: 36px;
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .people #name p{
+        margin-top: 1rem;
+        font-size: 18px;
+        line-height: 27px;
+    }
 }
