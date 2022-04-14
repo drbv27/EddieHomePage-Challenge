@@ -555,6 +555,9 @@ footer{
 }
 
 @media screen and (min-width:992px) {
+    .create{
+        max-width: 100vw;
+    }
     .create p {
         margin-left: 277px;
         font-size: 18px;
@@ -570,7 +573,7 @@ footer{
     
     .create img{
         
-        width: 1332px;
+        width: 100%;
         height: 354px;
         border-radius: 18px;
     }
@@ -628,5 +631,19 @@ footer{
         display:flex;
         justify-content: space-between;
     }
+
+    .design img{
+        width: 545px;
+        height: 545px;
+    }
+    #design{
+        max-width: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
     
+    #design .mt{
+        margin-top: 10rem;
+    }
 }
