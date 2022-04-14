@@ -646,4 +646,46 @@ footer{
     #design .mt{
         margin-top: 10rem;
     }
+    .team{
+        display: flex;
+        justify-content: space-between;
+    }
+    .team #textos h3{
+        width: 280px;
+        height: 27px;
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .team #textos h2{
+        width: 280px;
+        height: 162px;
+        font-size: 36px;
+        line-height: 54px;
+    }
+    .team #textos p{
+        width: 273px;
+        height: 48px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    #member1{
+        width: 260px;
+        height: 260px;
+        border-radius: 24px;
+        padding:0.3rem;
+    }
+    #member2{
+        width: 292px;
+        height: 300px;
+        border-radius: 24px;
+        padding:0.3rem;
+    }
+    #member3{
+        width: 310px;
+        height: 310px;
+        border-radius: 24px;
+        padding: 0.5rem;
+        margin-top: 3rem;
+    }
 }
