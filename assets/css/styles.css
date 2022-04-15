@@ -518,17 +518,17 @@ footer{
     flex-direction: column;
 }
 
-#footercontent .menu{
+#footercontent .menuf{
     margin-top: 1rem;
     margin-left: 3rem;
     
 }
 
-#footercontent .menu ul{
+#footercontent .menuf ul{
     list-style-type: none;
 }
 
-#footercontent .menu li a{
+#footercontent .menuf li a{
     text-decoration: none;
     color:#ffffff;
     font-family: 'Poppins', sans-serif;
